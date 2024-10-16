@@ -1,0 +1,46 @@
+name: sdga_design_system
+description: "A comprehensive set of UI components and design principles that adhere to the Saudi Digital Government Authority (SDGA) design guidelines."
+version: 0.0.1
+maintainer: OGhareeb
+homepage: https://design.dga.gov.sa/
+repository: https://github.com/FlutterREDF/sdga_design_system
+screenshots:
+  - description: Cards
+    path: screens/screenshot_cards.png
+  - description: Drawer
+    path: screens/screenshot_drawer.png
+  - description: Text Inputs
+    path: screens/screenshot_text_input.png
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+  flutter: ">=3.7.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sdga_icons: ^0.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+
+flutter:
+  fonts:
+    - family: IBMPlexSansArabic
+      fonts:
+        - asset: fonts/IBMPlexSansArabic-Regular.ttf
+        - asset: fonts/IBMPlexSansArabic-Bold.ttf
+          weight: 700
+        - asset: fonts/IBMPlexSansArabic-SemiBold.ttf
+          weight: 600
+        - asset: fonts/IBMPlexSansArabic-Medium.ttf
+          weight: 500
+        - asset: fonts/IBMPlexSansArabic-Light.ttf
+          weight: 300
+        - asset: fonts/IBMPlexSansArabic-ExtraLight.ttf
+          weight: 200
+        - asset: fonts/IBMPlexSansArabic-Thin.ttf
+          weight: 100
